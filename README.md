@@ -20,9 +20,4 @@ This project allows users to calculate the total bill based on price and quantit
 
 ---
 
-## 📂 Project Structure
-Bill_Calculator/
-│
-├── index.html # Main HTML file
-├── style.css # CSS file for styling
-└── script.js # JavaScript file for calculation logic
+
