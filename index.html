@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bill Calculator</title>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Bill Calculator</h1>
+        <form onsubmit="return script()">
+            <table id="Bill Calculator">
+                <tr>
+                    <td><label for="name">Product Name :</label></td><!-- Component id Matters -->
+                    <td>
+                        <input type="text" id="name" placeholder="Product Name" required>
+                    </td> <!-- place holder (appear by defaut) || required (It is mandatory)-->
+                </tr>
+                <tr>
+                    <td><label for="price">Product Price in Rs :</label></td><!-- label for that particular id -->
+                    <td>
+                        <input type="number" id="price" placeholder="Product Name" required min="1"><!-- question says minimum 1 -->
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="quantity">Quantity :</label></td>
+                    <td>
+                        <input type="number" id="quantity" placeholder="enter  quantity" required min="1">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="result">Total Price in Rs :</label></td>
+                    <td>
+                       <output id="result" name="total price" for="price quantity" required></output>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" id="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
